@@ -10,7 +10,7 @@
   export default defineComponent({
     name: 'todoListing',
     components: {
-      todoItem: defineAsyncComponent(() => import('@/components/todoItem.vue'))
+      todoItem: defineAsyncComponent(() => import('@/components/todoListAll/todoItem.vue'))
     },
     props: {
       list: {
